@@ -1,7 +1,12 @@
+@font-face {
+    font-family: Mayonice;
+    src: url(../fonts/Mayonice-ovqrd.ttf);
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: Mayonice;
     font-size: 16px;
-    background-color: #f4f4f4;
+    background-color: #ffff;
     margin: 0;
     padding: 20px;
 }
@@ -15,39 +20,33 @@ body {
 
     margin: auto;
 } */ 
+div {
+
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 5px;
+
+}
+
+h1 {
+    color: #333;
+    margin: center;
+    text-align: center;
+}
 
 .logoimg {
     height: 100px;
     width: auto;
 }
 
-div {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    
-    position: absolute;
-    top: -200px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    
-    margin: auto;
-}
-
-h1 {
-    color: #333;
-    margin: center;
-}
-
 .container {
-    max-width: 800px;
-    display: block;
-    margin: 0 auto;
-    background: white;
-    padding: 1rem;
-    border-radius: 5px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Edited out for further testing 
