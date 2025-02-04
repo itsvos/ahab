@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    font-size: 16px;
     background-color: #f4f4f4;
     margin: 0;
     padding: 20px;
@@ -11,13 +12,15 @@ h1 {
 
 .container {
     max-width: 800px;
-    margin: auto;
+    display: block;
+    margin: 0 auto;
     background: white;
-    padding: 20px;
+    padding: 1rem;
     border-radius: 5px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Edited out for further testing 
 .button {
     background-color: #28a745;
     color: white;
@@ -46,3 +49,5 @@ h1 {
     background-color: #f2f2f2;
     text-align: left;
 }
+
+*/ 
