@@ -1,7 +1,4 @@
-@font-face {
-    font-family: Quicksand;
-    src: url(../fonts/quicksand/Quicksand-Regular.otf);
-}
+@import url(fonts.css);
 
 body {
     font-family: Quicksand, sans-serif;
@@ -31,6 +28,7 @@ div {
 }
 
 h1 {
+    font-family: Mayonice;
     color: #333;
     margin: center;
     text-align: center;

@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/quicksand/Quicksand-Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/quicksand/Quicksand-Bold.otf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/quicksand/Quicksand-Light.otf);
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/quicksand/Quicksand-Italic.otf);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Mayonice;
+    src: url(../fonts/Mayonice-ovqrd.ttf);
+}
