@@ -1,10 +1,10 @@
 @font-face {
-    font-family: Mayonice;
-    src: url(../fonts/Mayonice-ovqrd.ttf);
+    font-family: Quicksand;
+    src: url(../fonts/quicksand/Quicksand-Regular.otf);
 }
 
 body {
-    font-family: Mayonice;
+    font-family: Quicksand, sans-serif;
     font-size: 16px;
     background-color: #ffff;
     margin: 0;
