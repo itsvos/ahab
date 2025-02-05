@@ -13,19 +13,20 @@ body {
 }
 
 .content-container {
-    /*display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;*/
     max-width: 800px;
     padding: 1rem;
     border-radius: 5px;
     text-align: center;
 }
 
+.text-container {
+    padding-top: 20px;
+}
+
 .logoimg {
     height: 100px;
     width: auto;
+    margin-top: 20px;
     margin-bottom: 20px;
     display: block;
     margin-left: auto;
@@ -50,8 +51,7 @@ footer {
     position: absolute;
     bottom: 0;
 }
-
-/* Edited out for further testing 
+ 
 .button {
     background-color: #28a745;
     color: white;
@@ -60,7 +60,7 @@ footer {
     border-radius: 5px;
     cursor: pointer;
 }
-
+/* Edited out for further testing
 .button:hover {
     background-color: #218838;
 }
